@@ -1,4 +1,4 @@
-;;; forge-autoloads.el --- automatically extracted autoloads
+;;; forge-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -17,7 +17,7 @@ is loaded, then `magit-mode-map' ends up being modified anyway.")
 
 (with-eval-after-load 'magit-mode (when forge-add-default-bindings (define-key magit-mode-map "'" 'forge-dispatch) (define-key magit-mode-map "N" 'forge-dispatch)))
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "forge" '("forge-")))
+(register-definition-prefixes "forge" '("forge-"))
 
 ;;;***
 
@@ -25,7 +25,7 @@ is loaded, then `magit-mode-map' ends up being modified anyway.")
 ;;;;;;  0 0))
 ;;; Generated autoloads from forge-bitbucket.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "forge-bitbucket" '("forge-bitbucket-repository")))
+(register-definition-prefixes "forge-bitbucket" '("forge-bitbucket-repository"))
 
 ;;;***
 
@@ -224,56 +224,56 @@ This is useful after the database scheme has changed, which will
 happen a few times while the forge functionality is still under
 heavy development." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "forge-commands" '("forge-")))
+(register-definition-prefixes "forge-commands" '("forge-"))
 
 ;;;***
 
 ;;;### (autoloads nil "forge-core" "forge-core.el" (0 0 0 0))
 ;;; Generated autoloads from forge-core.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "forge-core" '("forge-")))
+(register-definition-prefixes "forge-core" '("forge-"))
 
 ;;;***
 
 ;;;### (autoloads nil "forge-db" "forge-db.el" (0 0 0 0))
 ;;; Generated autoloads from forge-db.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "forge-db" '("forge-")))
+(register-definition-prefixes "forge-db" '("forge-"))
 
 ;;;***
 
 ;;;### (autoloads nil "forge-gitea" "forge-gitea.el" (0 0 0 0))
 ;;; Generated autoloads from forge-gitea.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "forge-gitea" '("forge-gitea-repository")))
+(register-definition-prefixes "forge-gitea" '("forge-gitea-repository"))
 
 ;;;***
 
 ;;;### (autoloads nil "forge-github" "forge-github.el" (0 0 0 0))
 ;;; Generated autoloads from forge-github.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "forge-github" '("forge-")))
+(register-definition-prefixes "forge-github" '("forge-"))
 
 ;;;***
 
 ;;;### (autoloads nil "forge-gitlab" "forge-gitlab.el" (0 0 0 0))
 ;;; Generated autoloads from forge-gitlab.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "forge-gitlab" '("forge-gitlab-repository")))
+(register-definition-prefixes "forge-gitlab" '("forge-gitlab-repository"))
 
 ;;;***
 
 ;;;### (autoloads nil "forge-gogs" "forge-gogs.el" (0 0 0 0))
 ;;; Generated autoloads from forge-gogs.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "forge-gogs" '("forge-gogs-repository")))
+(register-definition-prefixes "forge-gogs" '("forge-gogs-repository"))
 
 ;;;***
 
 ;;;### (autoloads nil "forge-issue" "forge-issue.el" (0 0 0 0))
 ;;; Generated autoloads from forge-issue.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "forge-issue" '("forge-")))
+(register-definition-prefixes "forge-issue" '("forge-"))
 
 ;;;***
 
@@ -360,56 +360,56 @@ and options `forge-owned-accounts' and `forge-owned-ignored'
 controls which repositories are considered to be owned by you.
 Only Github is supported for now." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "forge-list" '("forge-")))
+(register-definition-prefixes "forge-list" '("forge-"))
 
 ;;;***
 
 ;;;### (autoloads nil "forge-notify" "forge-notify.el" (0 0 0 0))
 ;;; Generated autoloads from forge-notify.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "forge-notify" '("forge-")))
+(register-definition-prefixes "forge-notify" '("forge-"))
 
 ;;;***
 
 ;;;### (autoloads nil "forge-post" "forge-post.el" (0 0 0 0))
 ;;; Generated autoloads from forge-post.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "forge-post" '("forge-")))
+(register-definition-prefixes "forge-post" '("forge-"))
 
 ;;;***
 
 ;;;### (autoloads nil "forge-pullreq" "forge-pullreq.el" (0 0 0 0))
 ;;; Generated autoloads from forge-pullreq.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "forge-pullreq" '("forge-")))
+(register-definition-prefixes "forge-pullreq" '("forge-"))
 
 ;;;***
 
 ;;;### (autoloads nil "forge-repo" "forge-repo.el" (0 0 0 0))
 ;;; Generated autoloads from forge-repo.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "forge-repo" '("forge-")))
+(register-definition-prefixes "forge-repo" '("forge-"))
 
 ;;;***
 
 ;;;### (autoloads nil "forge-revnote" "forge-revnote.el" (0 0 0 0))
 ;;; Generated autoloads from forge-revnote.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "forge-revnote" '("forge-revnote")))
+(register-definition-prefixes "forge-revnote" '("forge-revnote"))
 
 ;;;***
 
 ;;;### (autoloads nil "forge-semi" "forge-semi.el" (0 0 0 0))
 ;;; Generated autoloads from forge-semi.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "forge-semi" '("forge-")))
+(register-definition-prefixes "forge-semi" '("forge-"))
 
 ;;;***
 
 ;;;### (autoloads nil "forge-topic" "forge-topic.el" (0 0 0 0))
 ;;; Generated autoloads from forge-topic.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "forge-topic" '("forge-")))
+(register-definition-prefixes "forge-topic" '("forge-"))
 
 ;;;***
 

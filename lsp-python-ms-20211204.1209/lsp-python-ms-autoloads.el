@@ -1,4 +1,4 @@
-;;; lsp-python-ms-autoloads.el --- automatically extracted autoloads
+;;; lsp-python-ms-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -15,7 +15,7 @@ Update Microsoft Python Language Server.
 On Windows, if the server is running, the updating will fail.
 After stopping or killing the process, retry to update." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "lsp-python-ms" '("lsp-python-ms-")))
+(register-definition-prefixes "lsp-python-ms" '("lsp-python-ms-"))
 
 ;;;***
 

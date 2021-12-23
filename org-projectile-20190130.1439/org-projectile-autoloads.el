@@ -1,4 +1,4 @@
-;;; org-projectile-autoloads.el --- automatically extracted autoloads
+;;; org-projectile-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -39,7 +39,7 @@ were part of the capture template definition.
 
 \(fn &rest ADDITIONAL-OPTIONS &key CAPTURE-TEMPLATE &allow-other-keys)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-projectile" '("occ-" "org-projectile-")))
+(register-definition-prefixes "org-projectile" '("occ-" "org-projectile-"))
 
 ;;;***
 

@@ -1,4 +1,4 @@
-;;; smeargle-autoloads.el --- automatically extracted autoloads
+;;; smeargle-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -20,7 +20,7 @@ Highlight regions by last updated time.
 (autoload 'smeargle-commits "smeargle" "\
 Highlight regions by age of commits." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "smeargle" '("smeargle-")))
+(register-definition-prefixes "smeargle" '("smeargle-"))
 
 ;;;***
 

@@ -1,4 +1,4 @@
-;;; info+-autoloads.el --- automatically extracted autoloads
+;;; info+-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -495,7 +495,7 @@ If key's command cannot be found by looking in indexes, then
  (autoload 'Info-bookmark-jump "info+")
  (autoload 'info-display-manual "info+")
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "info+" '("Info-" "info-" "outline-invisible-p")))
+(register-definition-prefixes "info+" '("Info-" "info-" "outline-invisible-p"))
 
 ;;;***
 

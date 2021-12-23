@@ -1,4 +1,4 @@
-;;; spaceline-all-the-icons-autoloads.el --- automatically extracted autoloads
+;;; spaceline-all-the-icons-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -16,7 +16,7 @@ Add ADDITIONAL-SEGMENTS to the end of the theme.
 
 \(fn &rest ADDITIONAL-SEGMENTS)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "spaceline-all-the-icons" '("spaceline-all-the-icons-")))
+(register-definition-prefixes "spaceline-all-the-icons" '("spaceline-all-the-icons-"))
 
 ;;;***
 
@@ -24,7 +24,7 @@ Add ADDITIONAL-SEGMENTS to the end of the theme.
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from spaceline-all-the-icons-segments.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "spaceline-all-the-icons-segments" '("define-spaceline-all-the-icons--" "dirs" "files" "new" "spaceline-all-the-icons-" "upgrade")))
+(register-definition-prefixes "spaceline-all-the-icons-segments" '("define-spaceline-all-the-icons--" "dirs" "files" "new" "spaceline-all-the-icons-" "upgrade"))
 
 ;;;***
 
@@ -32,7 +32,7 @@ Add ADDITIONAL-SEGMENTS to the end of the theme.
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from spaceline-all-the-icons-separators.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "spaceline-all-the-icons-separators" '("define-spaceline-all-the-icons--separator" "left-" "minor-mode-" "paradox-" "right-" "spaceline-all-the-icons-separator")))
+(register-definition-prefixes "spaceline-all-the-icons-separators" '("define-spaceline-all-the-icons--separator" "left-" "minor-mode-" "paradox-" "right-" "spaceline-all-the-icons-separator"))
 
 ;;;***
 

@@ -1,4 +1,4 @@
-;;; parent-mode-autoloads.el --- automatically extracted autoloads
+;;; parent-mode-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -9,7 +9,7 @@
 ;;;### (autoloads nil "parent-mode" "parent-mode.el" (0 0 0 0))
 ;;; Generated autoloads from parent-mode.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "parent-mode" '("parent-mode-")))
+(register-definition-prefixes "parent-mode" '("parent-mode-"))
 
 ;;;***
 

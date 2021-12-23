@@ -1,4 +1,4 @@
-;;; flycheck-rtags-autoloads.el --- automatically extracted autoloads
+;;; flycheck-rtags-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -10,7 +10,7 @@
 ;;;;;;  0))
 ;;; Generated autoloads from flycheck-rtags.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "flycheck-rtags" '("flycheck-rtags-")))
+(register-definition-prefixes "flycheck-rtags" '("flycheck-rtags-"))
 
 ;;;***
 

@@ -1,4 +1,4 @@
-;;; evil-nerd-commenter-autoloads.el --- automatically extracted autoloads
+;;; evil-nerd-commenter-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -122,7 +122,7 @@ Paragraphs are separated by empty lines.
 
 \(fn &optional NUM)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "evil-nerd-commenter" '("evilnc-")))
+(register-definition-prefixes "evil-nerd-commenter" '("evilnc-"))
 
 ;;;***
 
@@ -130,7 +130,7 @@ Paragraphs are separated by empty lines.
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from evil-nerd-commenter-operator.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "evil-nerd-commenter-operator" '("evilnc-")))
+(register-definition-prefixes "evil-nerd-commenter-operator" '("evilnc-"))
 
 ;;;***
 
@@ -138,7 +138,7 @@ Paragraphs are separated by empty lines.
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from evil-nerd-commenter-sdk.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "evil-nerd-commenter-sdk" '("evilnc-")))
+(register-definition-prefixes "evil-nerd-commenter-sdk" '("evilnc-"))
 
 ;;;***
 

@@ -1,4 +1,4 @@
-;;; org-category-capture-autoloads.el --- automatically extracted autoloads
+;;; org-category-capture-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -10,7 +10,7 @@
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from org-category-capture.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-category-capture" '("occ-")))
+(register-definition-prefixes "org-category-capture" '("occ-"))
 
 ;;;***
 

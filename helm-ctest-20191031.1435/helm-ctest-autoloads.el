@@ -1,4 +1,4 @@
-;;; helm-ctest-autoloads.el --- automatically extracted autoloads
+;;; helm-ctest-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -11,7 +11,7 @@
 
 (autoload 'helm-ctest "helm-ctest" nil t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-ctest" '("helm-ctest-")))
+(register-definition-prefixes "helm-ctest" '("helm-ctest-"))
 
 ;;;***
 

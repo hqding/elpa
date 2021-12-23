@@ -1,4 +1,4 @@
-;;; helm-themes-autoloads.el --- automatically extracted autoloads
+;;; helm-themes-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -12,7 +12,7 @@
 (autoload 'helm-themes "helm-themes" "\
 Theme selection with helm interface." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-themes" '("helm-themes-")))
+(register-definition-prefixes "helm-themes" '("helm-themes-"))
 
 ;;;***
 

@@ -1,4 +1,4 @@
-;;; inspector-autoloads.el --- automatically extracted autoloads
+;;; inspector-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -9,7 +9,7 @@
 ;;;### (autoloads nil "inspector" "inspector.el" (0 0 0 0))
 ;;; Generated autoloads from inspector.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "inspector" '("debugger-inspect-locals" "inspect")))
+(register-definition-prefixes "inspector" '("debugger-inspect-locals" "inspect"))
 
 ;;;***
 

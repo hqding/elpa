@@ -1,4 +1,4 @@
-;;; ace-link-autoloads.el --- automatically extracted autoloads
+;;; ace-link-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -98,7 +98,7 @@ Bind KEY to appropriate functions in appropriate keymaps.
 
 \(fn &optional KEY)" nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ace-link" '("ace-link-")))
+(register-definition-prefixes "ace-link" '("ace-link-"))
 
 ;;;***
 

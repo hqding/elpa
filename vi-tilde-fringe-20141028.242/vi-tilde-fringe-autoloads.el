@@ -1,4 +1,4 @@
-;;; vi-tilde-fringe-autoloads.el --- automatically extracted autoloads
+;;; vi-tilde-fringe-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -14,10 +14,19 @@
 Buffer-local minor mode to display tildes in the fringe when the line is
 empty.
 
-If called interactively, enable Vi-Tilde-Fringe mode if ARG is
-positive, and disable it if ARG is zero or negative.  If called
-from Lisp, also enable the mode if ARG is omitted or nil, and
-toggle it if ARG is `toggle'; disable the mode otherwise.
+This is a minor mode.  If called interactively, toggle the
+`Vi-Tilde-Fringe mode' mode.  If the prefix argument is positive,
+enable the mode, and if it is zero or negative, disable the mode.
+
+If called from Lisp, toggle the mode if ARG is `toggle'.  Enable
+the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
+
+To check whether the minor mode is enabled in the current buffer,
+evaluate `vi-tilde-fringe-mode'.
+
+The mode's hook is called both when the mode is enabled and when
+it is disabled.
 
 \(fn &optional ARG)" t nil)
 
@@ -36,16 +45,20 @@ or call the function `global-vi-tilde-fringe-mode'.")
 (autoload 'global-vi-tilde-fringe-mode "vi-tilde-fringe" "\
 Toggle Vi-Tilde-Fringe mode in all buffers.
 With prefix ARG, enable Global Vi-Tilde-Fringe mode if ARG is positive;
-otherwise, disable it.  If called from Lisp, enable the mode if
-ARG is omitted or nil.
+otherwise, disable it.
+
+If called from Lisp, toggle the mode if ARG is `toggle'.
+Enable the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
 
 Vi-Tilde-Fringe mode is enabled in all buffers where
 `vi-tilde-fringe-mode--turn-on' would do it.
+
 See `vi-tilde-fringe-mode' for more information on Vi-Tilde-Fringe mode.
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "vi-tilde-fringe" '("vi-tilde-fringe-")))
+(register-definition-prefixes "vi-tilde-fringe" '("vi-tilde-fringe-"))
 
 ;;;***
 

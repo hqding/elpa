@@ -1,4 +1,4 @@
-;;; tagedit-autoloads.el --- automatically extracted autoloads
+;;; tagedit-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -52,7 +52,7 @@ Goto start of content within current tag." t nil)
 
 (autoload 'tagedit-insert-dot "tagedit" nil t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "tagedit" '("tagedit-")))
+(register-definition-prefixes "tagedit" '("tagedit-"))
 
 ;;;***
 

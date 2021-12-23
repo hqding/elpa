@@ -1,4 +1,4 @@
-;;; fuzzy-autoloads.el --- automatically extracted autoloads
+;;; fuzzy-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -9,7 +9,7 @@
 ;;;### (autoloads nil "fuzzy" "fuzzy.el" (0 0 0 0))
 ;;; Generated autoloads from fuzzy.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "fuzzy" '("fuzzy-" "turn-o")))
+(register-definition-prefixes "fuzzy" '("fuzzy-" "turn-o"))
 
 ;;;***
 

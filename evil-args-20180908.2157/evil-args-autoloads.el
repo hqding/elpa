@@ -1,4 +1,4 @@
-;;; evil-args-autoloads.el --- automatically extracted autoloads
+;;; evil-args-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -26,7 +26,7 @@ Move the cursor out of the nearest enclosing matching pairs.
 
 \(fn COUNT)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "evil-args" '("evil-args-")))
+(register-definition-prefixes "evil-args" '("evil-args-"))
 
 ;;;***
 

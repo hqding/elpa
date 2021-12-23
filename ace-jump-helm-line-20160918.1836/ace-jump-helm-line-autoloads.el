@@ -1,4 +1,4 @@
-;;; ace-jump-helm-line-autoloads.el --- automatically extracted autoloads
+;;; ace-jump-helm-line-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -41,15 +41,24 @@ or call the function `ace-jump-helm-line-autoshow-mode'.")
 (autoload 'ace-jump-helm-line-autoshow-mode "ace-jump-helm-line" "\
 Automatically show line labels in `helm'.
 
-If called interactively, enable Ace-Jump-Helm-Line-Autoshow mode
-if ARG is positive, and disable it if ARG is zero or negative.
-If called from Lisp, also enable the mode if ARG is omitted or
-nil, and toggle it if ARG is `toggle'; disable the mode
-otherwise.
+This is a minor mode.  If called interactively, toggle the
+`Ace-Jump-Helm-Line-Autoshow mode' mode.  If the prefix argument
+is positive, enable the mode, and if it is zero or negative,
+disable the mode.
+
+If called from Lisp, toggle the mode if ARG is `toggle'.  Enable
+the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
+
+To check whether the minor mode is enabled in the current buffer,
+evaluate `(default-value \\='ace-jump-helm-line-autoshow-mode)'.
+
+The mode's hook is called both when the mode is enabled and when
+it is disabled.
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ace-jump-helm-line" '("ace-jump-helm-line-" "turn-on-ace-jump-helm-line--linum")))
+(register-definition-prefixes "ace-jump-helm-line" '("ace-jump-helm-line-" "turn-on-ace-jump-helm-line--linum"))
 
 ;;;***
 

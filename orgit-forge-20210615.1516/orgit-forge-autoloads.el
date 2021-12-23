@@ -1,4 +1,4 @@
-;;; orgit-forge-autoloads.el --- automatically extracted autoloads
+;;; orgit-forge-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -32,7 +32,7 @@ Forge-Topic mode buffer for that topic." nil nil)
 
 \(fn &optional ARG)" nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "orgit-forge" '("orgit-topic-")))
+(register-definition-prefixes "orgit-forge" '("orgit-topic-"))
 
 ;;;***
 

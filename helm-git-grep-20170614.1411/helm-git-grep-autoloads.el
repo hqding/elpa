@@ -1,4 +1,4 @@
-;;; helm-git-grep-autoloads.el --- automatically extracted autoloads
+;;; helm-git-grep-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -40,7 +40,7 @@ Obsolete." t nil)
 
 (make-obsolete 'helm-git-grep-with-exclude-file-pattern helm-git-grep-with-exclude-file-pattern-obsolete-message "0.10.0")
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-git-grep" '("helm-git-grep-")))
+(register-definition-prefixes "helm-git-grep" '("helm-git-grep-"))
 
 ;;;***
 

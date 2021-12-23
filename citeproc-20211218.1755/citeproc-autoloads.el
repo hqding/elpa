@@ -1,4 +1,4 @@
-;;; citeproc-autoloads.el --- automatically extracted autoloads
+;;; citeproc-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -9,7 +9,7 @@
 ;;;### (autoloads nil "citeproc" "citeproc.el" (0 0 0 0))
 ;;; Generated autoloads from citeproc.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc" '("citeproc-")))
+(register-definition-prefixes "citeproc" '("citeproc-"))
 
 ;;;***
 
@@ -17,7 +17,7 @@
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from citeproc-biblatex.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-biblatex" '("citeproc-blt-")))
+(register-definition-prefixes "citeproc-biblatex" '("citeproc-blt-"))
 
 ;;;***
 
@@ -25,7 +25,7 @@
 ;;;;;;  0 0))
 ;;; Generated autoloads from citeproc-bibtex.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-bibtex" '("citeproc-bt-")))
+(register-definition-prefixes "citeproc-bibtex" '("citeproc-bt-"))
 
 ;;;***
 
@@ -33,14 +33,14 @@
 ;;;;;;  0 0))
 ;;; Generated autoloads from citeproc-choose.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-choose" '("citeproc-")))
+(register-definition-prefixes "citeproc-choose" '("citeproc-"))
 
 ;;;***
 
 ;;;### (autoloads nil "citeproc-cite" "citeproc-cite.el" (0 0 0 0))
 ;;; Generated autoloads from citeproc-cite.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-cite" '("citeproc-")))
+(register-definition-prefixes "citeproc-cite" '("citeproc-"))
 
 ;;;***
 
@@ -48,14 +48,14 @@
 ;;;;;;  0 0 0))
 ;;; Generated autoloads from citeproc-context.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-context" '("citeproc-")))
+(register-definition-prefixes "citeproc-context" '("citeproc-"))
 
 ;;;***
 
 ;;;### (autoloads nil "citeproc-date" "citeproc-date.el" (0 0 0 0))
 ;;; Generated autoloads from citeproc-date.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-date" '("citeproc-")))
+(register-definition-prefixes "citeproc-date" '("citeproc-"))
 
 ;;;***
 
@@ -63,7 +63,7 @@
 ;;;;;;  0 0))
 ;;; Generated autoloads from citeproc-disamb.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-disamb" '("citeproc-")))
+(register-definition-prefixes "citeproc-disamb" '("citeproc-"))
 
 ;;;***
 
@@ -71,7 +71,7 @@
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from citeproc-formatters.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-formatters" '("citeproc-f")))
+(register-definition-prefixes "citeproc-formatters" '("citeproc-f"))
 
 ;;;***
 
@@ -79,7 +79,7 @@
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from citeproc-generic-elements.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-generic-elements" '("citeproc-")))
+(register-definition-prefixes "citeproc-generic-elements" '("citeproc-"))
 
 ;;;***
 
@@ -87,7 +87,7 @@
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from citeproc-itemdata.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-itemdata" '("citeproc-itd-")))
+(register-definition-prefixes "citeproc-itemdata" '("citeproc-itd-"))
 
 ;;;***
 
@@ -95,14 +95,14 @@
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from citeproc-itemgetters.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-itemgetters" '("citeproc-")))
+(register-definition-prefixes "citeproc-itemgetters" '("citeproc-"))
 
 ;;;***
 
 ;;;### (autoloads nil "citeproc-lib" "citeproc-lib.el" (0 0 0 0))
 ;;; Generated autoloads from citeproc-lib.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-lib" '("citeproc-")))
+(register-definition-prefixes "citeproc-lib" '("citeproc-"))
 
 ;;;***
 
@@ -110,7 +110,7 @@
 ;;;;;;  0 0))
 ;;; Generated autoloads from citeproc-locale.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-locale" '("citeproc-locale-")))
+(register-definition-prefixes "citeproc-locale" '("citeproc-locale-"))
 
 ;;;***
 
@@ -118,14 +118,14 @@
 ;;;;;;  0))
 ;;; Generated autoloads from citeproc-macro.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-macro" '("citeproc-")))
+(register-definition-prefixes "citeproc-macro" '("citeproc-"))
 
 ;;;***
 
 ;;;### (autoloads nil "citeproc-name" "citeproc-name.el" (0 0 0 0))
 ;;; Generated autoloads from citeproc-name.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-name" '("citeproc-")))
+(register-definition-prefixes "citeproc-name" '("citeproc-"))
 
 ;;;***
 
@@ -133,7 +133,7 @@
 ;;;;;;  0 0))
 ;;; Generated autoloads from citeproc-number.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-number" '("citeproc-")))
+(register-definition-prefixes "citeproc-number" '("citeproc-"))
 
 ;;;***
 
@@ -141,35 +141,35 @@
 ;;;;;;  0 0))
 ;;; Generated autoloads from citeproc-prange.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-prange" '("citeproc-prange-")))
+(register-definition-prefixes "citeproc-prange" '("citeproc-prange-"))
 
 ;;;***
 
 ;;;### (autoloads nil "citeproc-proc" "citeproc-proc.el" (0 0 0 0))
 ;;; Generated autoloads from citeproc-proc.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-proc" '("citeproc-proc-")))
+(register-definition-prefixes "citeproc-proc" '("citeproc-proc-"))
 
 ;;;***
 
 ;;;### (autoloads nil "citeproc-rt" "citeproc-rt.el" (0 0 0 0))
 ;;; Generated autoloads from citeproc-rt.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-rt" '("citeproc-rt-")))
+(register-definition-prefixes "citeproc-rt" '("citeproc-rt-"))
 
 ;;;***
 
 ;;;### (autoloads nil "citeproc-s" "citeproc-s.el" (0 0 0 0))
 ;;; Generated autoloads from citeproc-s.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-s" '("citeproc-s-")))
+(register-definition-prefixes "citeproc-s" '("citeproc-s-"))
 
 ;;;***
 
 ;;;### (autoloads nil "citeproc-sort" "citeproc-sort.el" (0 0 0 0))
 ;;; Generated autoloads from citeproc-sort.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-sort" '("citeproc-")))
+(register-definition-prefixes "citeproc-sort" '("citeproc-"))
 
 ;;;***
 
@@ -177,7 +177,7 @@
 ;;;;;;  0))
 ;;; Generated autoloads from citeproc-style.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-style" '("citeproc-")))
+(register-definition-prefixes "citeproc-style" '("citeproc-"))
 
 ;;;***
 
@@ -185,14 +185,14 @@
 ;;;;;;  0 0 0))
 ;;; Generated autoloads from citeproc-subbibs.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-subbibs" '("citeproc-sb-")))
+(register-definition-prefixes "citeproc-subbibs" '("citeproc-sb-"))
 
 ;;;***
 
 ;;;### (autoloads nil "citeproc-term" "citeproc-term.el" (0 0 0 0))
 ;;; Generated autoloads from citeproc-term.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-term" '("citeproc-term-")))
+(register-definition-prefixes "citeproc-term" '("citeproc-term-"))
 
 ;;;***
 
@@ -200,7 +200,7 @@
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from citeproc-test-human.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "citeproc-test-human" '("citeproc-test-human-")))
+(register-definition-prefixes "citeproc-test-human" '("citeproc-test-human-"))
 
 ;;;***
 

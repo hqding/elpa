@@ -1,4 +1,4 @@
-;;; company-anaconda-autoloads.el --- automatically extracted autoloads
+;;; company-anaconda-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -16,7 +16,7 @@ See `company-backends' for more info about COMMAND and ARG.
 
 \(fn COMMAND &optional ARG &rest ARGS)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "company-anaconda" '("company-anaconda-")))
+(register-definition-prefixes "company-anaconda" '("company-anaconda-"))
 
 ;;;***
 

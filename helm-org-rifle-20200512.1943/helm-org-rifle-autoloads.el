@@ -1,4 +1,4 @@
-;;; helm-org-rifle-autoloads.el --- automatically extracted autoloads
+;;; helm-org-rifle-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -37,7 +37,7 @@ Rifle through Org files in `org-directory'." t nil)
  (autoload 'helm-org-rifle-occur-agenda-files "helm-org-rifle" nil t)
  (autoload 'helm-org-rifle-occur-org-directory "helm-org-rifle" nil t)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-org-rifle" '("helm-org-rifle-")))
+(register-definition-prefixes "helm-org-rifle" '("helm-org-rifle-"))
 
 ;;;***
 

@@ -1,4 +1,4 @@
-;;; helm-make-autoloads.el --- automatically extracted autoloads
+;;; helm-make-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -29,7 +29,7 @@ setting the buffer local variable `helm-make-build-dir'.
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-make" '("helm-")))
+(register-definition-prefixes "helm-make" '("helm-"))
 
 ;;;***
 

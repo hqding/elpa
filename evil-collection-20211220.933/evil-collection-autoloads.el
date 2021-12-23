@@ -1,4 +1,4 @@
-;;; evil-collection-autoloads.el --- automatically extracted autoloads
+;;; evil-collection-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -67,7 +67,7 @@ instead of the modes in `evil-collection-mode-list'.
 
 \(fn &optional MODES)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "evil-collection" '("evil-collection-")))
+(register-definition-prefixes "evil-collection" '("evil-collection-"))
 
 ;;;***
 

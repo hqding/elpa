@@ -1,4 +1,4 @@
-;;; cpp-auto-include-autoloads.el --- automatically extracted autoloads
+;;; cpp-auto-include-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -13,7 +13,7 @@
 (autoload 'cpp-auto-include "cpp-auto-include" "\
 Insert needed C++ headers and remove unneeded headers." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "cpp-auto-include" '("cpp-auto-include--")))
+(register-definition-prefixes "cpp-auto-include" '("cpp-auto-include--"))
 
 ;;;***
 

@@ -1,4 +1,4 @@
-;;; org-pomodoro-autoloads.el --- automatically extracted autoloads
+;;; org-pomodoro-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -18,7 +18,7 @@ kill the current timer, this may be a break or a running pomodoro.
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-pomodoro" '("org-pomodoro-")))
+(register-definition-prefixes "org-pomodoro" '("org-pomodoro-"))
 
 ;;;***
 
@@ -26,7 +26,7 @@ kill the current timer, this may be a break or a running pomodoro.
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from org-pomodoro-pidgin.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-pomodoro-pidgin" '("org-pom")))
+(register-definition-prefixes "org-pomodoro-pidgin" '("org-pom"))
 
 ;;;***
 

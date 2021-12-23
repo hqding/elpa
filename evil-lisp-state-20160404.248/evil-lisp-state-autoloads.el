@@ -1,4 +1,4 @@
-;;; evil-lisp-state-autoloads.el --- automatically extracted autoloads
+;;; evil-lisp-state-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -10,7 +10,7 @@
 ;;;;;;  0 0))
 ;;; Generated autoloads from evil-lisp-state.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "evil-lisp-state" '("evil-lisp-state" "lisp-state-")))
+(register-definition-prefixes "evil-lisp-state" '("evil-lisp-state" "lisp-state-"))
 
 ;;;***
 

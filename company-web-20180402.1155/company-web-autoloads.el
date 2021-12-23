@@ -1,4 +1,4 @@
-;;; company-web-autoloads.el --- automatically extracted autoloads
+;;; company-web-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -9,7 +9,7 @@
 ;;;### (autoloads nil "company-web" "company-web.el" (0 0 0 0))
 ;;; Generated autoloads from company-web.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "company-web" '("company-web-")))
+(register-definition-prefixes "company-web" '("company-web-"))
 
 ;;;***
 
@@ -22,7 +22,7 @@
 
 \(fn COMMAND &optional ARG &rest IGNORED)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "company-web-html" '("company-web-html-")))
+(register-definition-prefixes "company-web-html" '("company-web-html-"))
 
 ;;;***
 
@@ -35,7 +35,7 @@
 
 \(fn COMMAND &optional ARG &rest IGNORED)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "company-web-jade" '("company-web-jade-")))
+(register-definition-prefixes "company-web-jade" '("company-web-jade-"))
 
 ;;;***
 
@@ -48,7 +48,7 @@
 
 \(fn COMMAND &optional ARG &rest IGNORED)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "company-web-slim" '("company-web-slim-")))
+(register-definition-prefixes "company-web-slim" '("company-web-slim-"))
 
 ;;;***
 

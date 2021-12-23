@@ -1,4 +1,4 @@
-;;; emr-autoloads.el --- automatically extracted autoloads
+;;; emr-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -52,7 +52,7 @@ Show the refactor menu at point." t nil)
 (autoload 'emr-initialize "emr" "\
 Activate language support for EMR." nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "emr" '("emr")))
+(register-definition-prefixes "emr" '("emr"))
 
 ;;;***
 
@@ -71,7 +71,7 @@ Insert an include for HEADER and tidy the includes in the buffer.
 (autoload 'emr-c-initialize "emr-c" "\
 Initialize EMR in C buffers and enable the EMR menu." nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "emr-c" '("emr-")))
+(register-definition-prefixes "emr-c" '("emr-"))
 
 ;;;***
 
@@ -286,21 +286,21 @@ popup window." t nil)
 (autoload 'emr-el-initialize "emr-elisp" "\
 Enable the EMR menu for Elisp buffers." nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "emr-elisp" '("emr-")))
+(register-definition-prefixes "emr-elisp" '("emr-"))
 
 ;;;***
 
 ;;;### (autoloads nil "emr-iedit" "emr-iedit.el" (0 0 0 0))
 ;;; Generated autoloads from emr-iedit.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "emr-iedit" '("emr-iedit")))
+(register-definition-prefixes "emr-iedit" '("emr-iedit"))
 
 ;;;***
 
 ;;;### (autoloads nil "emr-lisp" "emr-lisp.el" (0 0 0 0))
 ;;; Generated autoloads from emr-lisp.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "emr-lisp" '("emr-lisp-")))
+(register-definition-prefixes "emr-lisp" '("emr-lisp-"))
 
 ;;;***
 
@@ -320,7 +320,7 @@ The variable will be called NAME.
 
 \(fn NAME)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "emr-scheme" '("emr-scm:")))
+(register-definition-prefixes "emr-scheme" '("emr-scm:"))
 
 ;;;***
 

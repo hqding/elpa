@@ -1,4 +1,4 @@
-;;; evil-unimpaired-autoloads.el --- automatically extracted autoloads
+;;; evil-unimpaired-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -10,7 +10,7 @@
 ;;;;;;  0 0))
 ;;; Generated autoloads from evil-unimpaired.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "evil-unimpaired" '("evil-unimpaired/")))
+(register-definition-prefixes "evil-unimpaired" '("evil-unimpaired/"))
 
 ;;;***
 

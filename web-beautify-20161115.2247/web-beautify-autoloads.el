@@ -1,4 +1,4 @@
-;;; web-beautify-autoloads.el --- automatically extracted autoloads
+;;; web-beautify-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -33,7 +33,7 @@ Formatting is done according to the js-beautify command." t nil)
 (autoload 'web-beautify-js-buffer "web-beautify" "\
 Format the current buffer according to the js-beautify command." nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "web-beautify" '("web-beautify-")))
+(register-definition-prefixes "web-beautify" '("web-beautify-"))
 
 ;;;***
 

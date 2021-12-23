@@ -1,4 +1,4 @@
-;;; pytest-autoloads.el --- automatically extracted autoloads
+;;; pytest-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -60,7 +60,7 @@ Optional argument FLAGS py.test command line flags.
 (autoload 'pytest-pdb-one "pytest" "\
 Run pytest on testable thing at point, enter debugger on error." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "pytest" '("pytest-")))
+(register-definition-prefixes "pytest" '("pytest-"))
 
 ;;;***
 

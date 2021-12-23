@@ -1,4 +1,4 @@
-;;; poetry-autoloads.el --- automatically extracted autoloads
+;;; poetry-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -112,10 +112,19 @@ or call the function `poetry-tracking-mode'.")
 (autoload 'poetry-tracking-mode "poetry" "\
 Global minor mode to track the current poetry virtualenv.
 
-If called interactively, enable Poetry-Tracking mode if ARG is
-positive, and disable it if ARG is zero or negative.  If called
-from Lisp, also enable the mode if ARG is omitted or nil, and
-toggle it if ARG is `toggle'; disable the mode otherwise.
+This is a minor mode.  If called interactively, toggle the
+`Poetry-Tracking mode' mode.  If the prefix argument is positive,
+enable the mode, and if it is zero or negative, disable the mode.
+
+If called from Lisp, toggle the mode if ARG is `toggle'.  Enable
+the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
+
+To check whether the minor mode is enabled in the current buffer,
+evaluate `(default-value \\='poetry-tracking-mode)'.
+
+The mode's hook is called both when the mode is enabled and when
+it is disabled.
 
 For every project, Poetry automatically creates a virtualenv and install the project dependencies in it.
 This minor mode automatically activates the relevant Poetry virtualenv when visiting a project file.
@@ -127,7 +136,7 @@ It ensures that your python scripts are always executed in the right environment
 (autoload 'poetry-find-project-root "poetry" "\
 Return the poetry project root if any." nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "poetry" '("poetry")))
+(register-definition-prefixes "poetry" '("poetry"))
 
 ;;;***
 

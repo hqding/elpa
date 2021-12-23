@@ -1,4 +1,4 @@
-;;; nose-autoloads.el --- automatically extracted autoloads
+;;; nose-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -9,7 +9,7 @@
 ;;;### (autoloads nil "nose" "nose.el" (0 0 0 0))
 ;;; Generated autoloads from nose.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "nose" '("inner-testable" "nose" "outer-testable" "run-nose")))
+(register-definition-prefixes "nose" '("inner-testable" "nose" "outer-testable" "run-nose"))
 
 ;;;***
 

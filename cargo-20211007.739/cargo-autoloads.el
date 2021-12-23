@@ -1,4 +1,4 @@
-;;; cargo-autoloads.el --- automatically extracted autoloads
+;;; cargo-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -12,16 +12,25 @@
 (autoload 'cargo-minor-mode "cargo" "\
 Cargo minor mode. Used to hold keybindings for cargo-mode.
 
-If called interactively, enable Cargo minor mode if ARG is
-positive, and disable it if ARG is zero or negative.  If called
-from Lisp, also enable the mode if ARG is omitted or nil, and
-toggle it if ARG is `toggle'; disable the mode otherwise.
+This is a minor mode.  If called interactively, toggle the `cargo
+minor mode' mode.  If the prefix argument is positive, enable the
+mode, and if it is zero or negative, disable the mode.
+
+If called from Lisp, toggle the mode if ARG is `toggle'.  Enable
+the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
+
+To check whether the minor mode is enabled in the current buffer,
+evaluate `cargo-minor-mode'.
+
+The mode's hook is called both when the mode is enabled and when
+it is disabled.
 
 \\{cargo-minor-mode-command-map}
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "cargo" '("cargo-m")))
+(register-definition-prefixes "cargo" '("cargo-m"))
 
 ;;;***
 
@@ -181,7 +190,7 @@ Cargo: Upgrade dependencies as specified in the local manifest file
 (autoload 'cargo-process-repeat "cargo-process" "\
 Run the last cargo-process command." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "cargo-process" '("cargo-" "manifest-path-argument" "rustc-errno" "set-rust-backtrace")))
+(register-definition-prefixes "cargo-process" '("cargo-" "manifest-path-argument" "rustc-errno" "set-rust-backtrace"))
 
 ;;;***
 

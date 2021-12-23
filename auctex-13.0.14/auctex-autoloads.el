@@ -1,4 +1,4 @@
-;;; auctex-autoloads.el --- automatically extracted autoloads
+;;; auctex-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -20,7 +20,7 @@ runs `bib-find', and [mouse-3] runs `bib-display'.
 (autoload 'turn-on-bib-cite "bib-cite" "\
 Unconditionally turn on Bib Cite mode." nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "bib-cite" '("LaTeX-" "bib-" "create-alist-from-list" "member-cis" "psg-" "search-directory-tree")))
+(register-definition-prefixes "bib-cite" '("LaTeX-" "bib-" "create-alist-from-list" "member-cis" "psg-" "search-directory-tree"))
 
 ;;;***
 
@@ -39,7 +39,7 @@ Entering `context-mode' calls the value of `text-mode-hook',
 then the value of `TeX-mode-hook', and then the value
 of ConTeXt-mode-hook." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "context" '("ConTeXt-" "TeX-ConTeXt-sentinel" "context-guess-current-interface")))
+(register-definition-prefixes "context" '("ConTeXt-" "TeX-ConTeXt-sentinel" "context-guess-current-interface"))
 
 ;;;***
 
@@ -56,7 +56,7 @@ Entering `context-mode' calls the value of `text-mode-hook',
 then the value of TeX-mode-hook, and then the value
 of context-mode-hook." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "context-en" '("ConTeXt-")))
+(register-definition-prefixes "context-en" '("ConTeXt-"))
 
 ;;;***
 
@@ -73,7 +73,7 @@ Entering `context-mode' calls the value of `text-mode-hook',
 then the value of TeX-mode-hook, and then the value
 of context-mode-hook." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "context-nl" '("ConTeXt-")))
+(register-definition-prefixes "context-nl" '("ConTeXt-"))
 
 ;;;***
 
@@ -83,7 +83,7 @@ of context-mode-hook." t nil)
 (autoload 'font-latex-setup "font-latex" "\
 Setup this buffer for LaTeX font-lock.  Usually called from a hook." nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "font-latex" '("font-latex-")))
+(register-definition-prefixes "font-latex" '("font-latex-"))
 
 ;;;***
 
@@ -120,14 +120,14 @@ runs the hooks in `docTeX-mode-hook'.
 
 (defalias 'TeX-doctex-mode #'docTeX-mode)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "latex" '("Bib" "LaTeX-" "TeX-" "docTeX-" "latex-math-mode")))
+(register-definition-prefixes "latex" '("Bib" "LaTeX-" "TeX-" "docTeX-" "latex-math-mode"))
 
 ;;;***
 
 ;;;### (autoloads nil "latex-flymake" "latex-flymake.el" (0 0 0 0))
 ;;; Generated autoloads from latex-flymake.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "latex-flymake" '("LaTeX-")))
+(register-definition-prefixes "latex-flymake" '("LaTeX-"))
 
 ;;;***
 
@@ -158,7 +158,7 @@ The return value is the string as entered in the minibuffer.
 
 \(fn PROMPT TABLE &optional PREDICATE REQUIRE-MATCH INITIAL-INPUT HIST DEF INHERIT-INPUT-METHOD)" nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "multi-prompt" '("multi-prompt-")))
+(register-definition-prefixes "multi-prompt" '("multi-prompt-"))
 
 ;;;***
 
@@ -187,7 +187,7 @@ Entering `ams-tex-mode' calls the value of `text-mode-hook',
 then the value of `TeX-mode-hook', and then the value
 of `AmS-TeX-mode-hook'." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "plain-tex" '("AmS" "plain-TeX-")))
+(register-definition-prefixes "plain-tex" '("AmS" "plain-TeX-"))
 
 ;;;***
 
@@ -215,7 +215,7 @@ to add the preview functionality." nil nil)
 (autoload 'preview-report-bug "preview" "\
 Report a bug in the preview-latex package." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "preview" '("TeX-" "desktop-buffer-preview" "preview-")))
+(register-definition-prefixes "preview" '("TeX-" "desktop-buffer-preview" "preview-"))
 
 ;;;***
 
@@ -252,7 +252,7 @@ If you don't have setup sending mail from Emacs, please copy the
 output buffer into your mail program, as it gives us important
 information about your AUCTeX version and AUCTeX configuration." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "tex" '("Bib" "ConTeXt-" "LaTeX-" "TeX-" "VirTeX-common-initialization" "docTeX-default-extension" "plain-TeX-auto-regexp-list" "tex-")))
+(register-definition-prefixes "tex" '("Bib" "ConTeXt-" "LaTeX-" "TeX-" "VirTeX-common-initialization" "docTeX-default-extension" "plain-TeX-auto-regexp-list" "tex-"))
 
 ;;;***
 
@@ -265,14 +265,14 @@ Install toolbar buttons for TeX mode." t nil)
 (autoload 'LaTeX-install-toolbar "tex-bar" "\
 Install toolbar buttons for LaTeX mode." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "tex-bar" '("TeX-bar-")))
+(register-definition-prefixes "tex-bar" '("TeX-bar-"))
 
 ;;;***
 
 ;;;### (autoloads nil "tex-buf" "tex-buf.el" (0 0 0 0))
 ;;; Generated autoloads from tex-buf.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "tex-buf" '("LaTeX-" "TeX-")))
+(register-definition-prefixes "tex-buf" '("LaTeX-" "TeX-"))
 
 ;;;***
 
@@ -290,7 +290,7 @@ With zero or negative ARG turn mode off.
 
 (defalias 'tex-fold-mode #'TeX-fold-mode)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "tex-fold" '("TeX-fold-")))
+(register-definition-prefixes "tex-fold" '("TeX-fold-"))
 
 ;;;***
 
@@ -300,7 +300,7 @@ With zero or negative ARG turn mode off.
 (autoload 'tex-font-setup "tex-font" "\
 Setup font lock support for TeX." nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "tex-font" '("tex-")))
+(register-definition-prefixes "tex-font" '("tex-"))
 
 ;;;***
 
@@ -318,14 +318,14 @@ Special commands:
 Entering Texinfo mode calls the value of `text-mode-hook'  and then the
 value of `Texinfo-mode-hook'." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "tex-info" '("Texinfo-" "texinfo-environment-regexp")))
+(register-definition-prefixes "tex-info" '("Texinfo-" "texinfo-environment-regexp"))
 
 ;;;***
 
 ;;;### (autoloads nil "tex-ispell" "tex-ispell.el" (0 0 0 0))
 ;;; Generated autoloads from tex-ispell.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "tex-ispell" '("TeX-ispell-")))
+(register-definition-prefixes "tex-ispell" '("TeX-ispell-"))
 
 ;;;***
 
@@ -340,7 +340,7 @@ Set `japanese-TeX-mode' to t, and enter `TeX-plain-tex-mode'." t nil)
 Major mode in AUCTeX for editing Japanese LaTeX files.
 Set `japanese-TeX-mode' to t, and enter `TeX-latex-mode'." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "tex-jp" '("TeX-" "japanese-")))
+(register-definition-prefixes "tex-jp" '("TeX-" "japanese-"))
 
 ;;;***
 
@@ -348,21 +348,21 @@ Set `japanese-TeX-mode' to t, and enter `TeX-latex-mode'." t nil)
 ;;; Generated autoloads from tex-site.el
  (require 'tex-site)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "tex-site" '("AUCTeX-" "TeX-" "preview-TeX-style-dir")))
+(register-definition-prefixes "tex-site" '("AUCTeX-" "TeX-" "preview-TeX-style-dir"))
 
 ;;;***
 
 ;;;### (autoloads nil "tex-style" "tex-style.el" (0 0 0 0))
 ;;; Generated autoloads from tex-style.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "tex-style" '("LaTeX-")))
+(register-definition-prefixes "tex-style" '("LaTeX-"))
 
 ;;;***
 
 ;;;### (autoloads nil "tex-wizard" "tex-wizard.el" (0 0 0 0))
 ;;; Generated autoloads from tex-wizard.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "tex-wizard" '("TeX-wizard")))
+(register-definition-prefixes "tex-wizard" '("TeX-wizard"))
 
 ;;;***
 
@@ -382,7 +382,7 @@ Limit searched to BOUND.
 
 \(fn BOUND)" nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "texmathp" '("texmathp-")))
+(register-definition-prefixes "texmathp" '("texmathp-"))
 
 ;;;***
 
@@ -390,7 +390,7 @@ Limit searched to BOUND.
 ;;; Generated autoloads from toolbar-x.el
  (autoload 'toolbarx-install-toolbar "toolbar-x")
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "toolbar-x" '("toolbarx-")))
+(register-definition-prefixes "toolbar-x" '("toolbarx-"))
 
 ;;;***
 

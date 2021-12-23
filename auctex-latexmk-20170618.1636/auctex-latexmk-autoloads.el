@@ -1,4 +1,4 @@
-;;; auctex-latexmk-autoloads.el --- automatically extracted autoloads
+;;; auctex-latexmk-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -13,7 +13,7 @@
 (autoload 'auctex-latexmk-setup "auctex-latexmk" "\
 Add LatexMk command to TeX-command-list." nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "auctex-latexmk" '("Latexmk-sentinel" "TeX-run-latexmk" "auctex-latexmk-")))
+(register-definition-prefixes "auctex-latexmk" '("Latexmk-sentinel" "TeX-run-latexmk" "auctex-latexmk-"))
 
 ;;;***
 

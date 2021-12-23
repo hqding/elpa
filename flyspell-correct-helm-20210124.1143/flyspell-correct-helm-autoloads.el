@@ -1,4 +1,4 @@
-;;; flyspell-correct-helm-autoloads.el --- automatically extracted autoloads
+;;; flyspell-correct-helm-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -10,7 +10,7 @@
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from flyspell-correct-helm.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "flyspell-correct-helm" '("flyspell-correct-helm")))
+(register-definition-prefixes "flyspell-correct-helm" '("flyspell-correct-helm"))
 
 ;;;***
 

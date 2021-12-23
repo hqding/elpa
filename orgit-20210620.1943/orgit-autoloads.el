@@ -1,4 +1,4 @@
-;;; orgit-autoloads.el --- automatically extracted autoloads
+;;; orgit-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -93,7 +93,7 @@ store links to the Magit-Revision mode buffers for these commits." nil nil)
 
 \(fn &optional ARG)" nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "orgit" '("orgit-")))
+(register-definition-prefixes "orgit" '("orgit-"))
 
 ;;;***
 

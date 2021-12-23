@@ -1,4 +1,4 @@
-;;; helm-purpose-autoloads.el --- automatically extracted autoloads
+;;; helm-purpose-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -26,7 +26,7 @@ Setup Helm interface for Purpose.
 Currently just sets `purpose-preferred-prompt' to 'helm.
 Doesn't bind any keys." nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-purpose" '("helm-")))
+(register-definition-prefixes "helm-purpose" '("helm-"))
 
 ;;;***
 

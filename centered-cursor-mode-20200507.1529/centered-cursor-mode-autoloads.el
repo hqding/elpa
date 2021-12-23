@@ -1,4 +1,4 @@
-;;; centered-cursor-mode-autoloads.el --- automatically extracted autoloads
+;;; centered-cursor-mode-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -17,10 +17,19 @@ Visible text lines" nil nil)
 Makes the cursor stay vertically in a defined
 position (usually centered).
 
-If called interactively, enable Centered-Cursor mode if ARG is
-positive, and disable it if ARG is zero or negative.  If called
-from Lisp, also enable the mode if ARG is omitted or nil, and
-toggle it if ARG is `toggle'; disable the mode otherwise.
+This is a minor mode.  If called interactively, toggle the
+`Centered-Cursor mode' mode.  If the prefix argument is positive,
+enable the mode, and if it is zero or negative, disable the mode.
+
+If called from Lisp, toggle the mode if ARG is `toggle'.  Enable
+the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
+
+To check whether the minor mode is enabled in the current buffer,
+evaluate `centered-cursor-mode'.
+
+The mode's hook is called both when the mode is enabled and when
+it is disabled.
 
 \(fn &optional ARG)" t nil)
 
@@ -39,16 +48,20 @@ or call the function `global-centered-cursor-mode'.")
 (autoload 'global-centered-cursor-mode "centered-cursor-mode" "\
 Toggle Centered-Cursor mode in all buffers.
 With prefix ARG, enable Global Centered-Cursor mode if ARG is positive;
-otherwise, disable it.  If called from Lisp, enable the mode if
-ARG is omitted or nil.
+otherwise, disable it.
 
-Centered-Cursor mode is enabled in all buffers where
-`centered-cursor-mode' would do it.
+If called from Lisp, toggle the mode if ARG is `toggle'.
+Enable the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
+
+Centered-Cursor mode is enabled in all buffers where `centered-cursor-mode'
+would do it.
+
 See `centered-cursor-mode' for more information on Centered-Cursor mode.
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "centered-cursor-mode" '("animate-first-start-p" "ccm-" "recenter-sequence")))
+(register-definition-prefixes "centered-cursor-mode" '("animate-first-start-p" "ccm-" "recenter-sequence"))
 
 ;;;***
 

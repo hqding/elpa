@@ -1,4 +1,4 @@
-;;; dotenv-mode-autoloads.el --- automatically extracted autoloads
+;;; dotenv-mode-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -16,7 +16,7 @@ Major mode for `.env' files.
 
 (mapc (lambda (s) (add-to-list 'auto-mode-alist `(,s . dotenv-mode))) '("\\.env\\'" "\\.env\\.example\\'"))
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "dotenv-mode" '("dotenv-")))
+(register-definition-prefixes "dotenv-mode" '("dotenv-"))
 
 ;;;***
 

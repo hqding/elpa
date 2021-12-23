@@ -1,4 +1,4 @@
-;;; pydoc-autoloads.el --- automatically extracted autoloads
+;;; pydoc-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -42,7 +42,7 @@ Attempts to find an open port, and to reuse the process." t nil)
 (autoload 'pydoc-browse-kill "pydoc" "\
 Kill the pydoc browser." nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "pydoc" '("*pydoc-" "pydoc-")))
+(register-definition-prefixes "pydoc" '("*pydoc-" "pydoc-"))
 
 ;;;***
 

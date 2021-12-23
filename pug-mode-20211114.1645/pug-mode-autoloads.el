@@ -1,4 +1,4 @@
-;;; pug-mode-autoloads.el --- automatically extracted autoloads
+;;; pug-mode-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -25,7 +25,7 @@ If the universal argument is supplied, render pretty HTML (non-compressed).
 
 (add-to-list 'auto-mode-alist '("\\.\\(?:jade\\|pug\\)\\'" . pug-mode))
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "pug-mode" '("pug-")))
+(register-definition-prefixes "pug-mode" '("pug-"))
 
 ;;;***
 

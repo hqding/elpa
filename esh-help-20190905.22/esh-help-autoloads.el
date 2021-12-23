@@ -1,4 +1,4 @@
-;;; esh-help-autoloads.el --- automatically extracted autoloads
+;;; esh-help-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -18,7 +18,7 @@ It comes from Zsh.
 
 \(fn CMD)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "esh-help" '("esh-help-")))
+(register-definition-prefixes "esh-help" '("esh-help-"))
 
 ;;;***
 

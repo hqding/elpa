@@ -1,4 +1,4 @@
-;;; helm-swoop-autoloads.el --- automatically extracted autoloads
+;;; helm-swoop-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -68,7 +68,7 @@ Start helm-swoop without pre input query." t nil)
 (autoload 'helm-multi-swoop-edit "helm-swoop" "\
 Multi swoop edit." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-swoop" '("get-buffers-matching-mode" "helm-")))
+(register-definition-prefixes "helm-swoop" '("get-buffers-matching-mode" "helm-"))
 
 ;;;***
 

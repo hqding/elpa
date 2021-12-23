@@ -1,4 +1,4 @@
-;;; gendoxy-autoloads.el --- automatically extracted autoloads
+;;; gendoxy-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -30,7 +30,7 @@ Generate general template for source item in current line and its items" t nil)
 (autoload 'gendoxy-tag-header "gendoxy" "\
 Generate general template for source item in current line" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "gendoxy" '("gendoxy-")))
+(register-definition-prefixes "gendoxy" '("gendoxy-"))
 
 ;;;***
 

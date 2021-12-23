@@ -1,4 +1,4 @@
-;;; helm-pydoc-autoloads.el --- automatically extracted autoloads
+;;; helm-pydoc-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -11,7 +11,7 @@
 
 (autoload 'helm-pydoc "helm-pydoc" nil t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-pydoc" '("helm-pydoc-")))
+(register-definition-prefixes "helm-pydoc" '("helm-pydoc-"))
 
 ;;;***
 

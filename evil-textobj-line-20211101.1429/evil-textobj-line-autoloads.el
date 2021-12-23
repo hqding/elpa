@@ -1,4 +1,4 @@
-;;; evil-textobj-line-autoloads.el --- automatically extracted autoloads
+;;; evil-textobj-line-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -10,7 +10,7 @@
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from evil-textobj-line.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "evil-textobj-line" '("evil-")))
+(register-definition-prefixes "evil-textobj-line" '("evil-"))
 
 ;;;***
 

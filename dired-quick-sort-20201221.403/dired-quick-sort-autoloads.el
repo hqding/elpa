@@ -1,4 +1,4 @@
-;;; dired-quick-sort-autoloads.el --- automatically extracted autoloads
+;;; dired-quick-sort-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -37,7 +37,7 @@ to use your own preferred setup:
   ;; Automatically use the sorting defined here to sort.
   (add-hook 'dired-mode-hook 'dired-quick-sort)" nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "dired-quick-sort" '("dired-quick-sort-" "hydra-dired-quick-sort")))
+(register-definition-prefixes "dired-quick-sort" '("dired-quick-sort-" "hydra-dired-quick-sort"))
 
 ;;;***
 

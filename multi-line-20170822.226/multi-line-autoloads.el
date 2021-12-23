@@ -1,4 +1,4 @@
-;;; multi-line-autoloads.el --- automatically extracted autoloads
+;;; multi-line-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -25,7 +25,7 @@ When ARG is provided single-line the statement at point instead.
 (autoload 'multi-line-single-line "multi-line" "\
 Single-line the statement at point." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "multi-line" '("multi-line-")))
+(register-definition-prefixes "multi-line" '("multi-line-"))
 
 ;;;***
 
@@ -33,7 +33,7 @@ Single-line the statement at point." t nil)
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from multi-line-candidate.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "multi-line-candidate" '("multi-line-candidate")))
+(register-definition-prefixes "multi-line-candidate" '("multi-line-candidate"))
 
 ;;;***
 
@@ -41,7 +41,7 @@ Single-line the statement at point." t nil)
 ;;;;;;  0 0 0))
 ;;; Generated autoloads from multi-line-cycle.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "multi-line-cycle" '("multi-line-")))
+(register-definition-prefixes "multi-line-cycle" '("multi-line-"))
 
 ;;;***
 
@@ -49,7 +49,7 @@ Single-line the statement at point." t nil)
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from multi-line-decorator.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "multi-line-decorator" '("multi-line-")))
+(register-definition-prefixes "multi-line-decorator" '("multi-line-"))
 
 ;;;***
 
@@ -57,7 +57,7 @@ Single-line the statement at point." t nil)
 ;;;;;;  0 0 0))
 ;;; Generated autoloads from multi-line-enter.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "multi-line-enter" '("multi-line-")))
+(register-definition-prefixes "multi-line-enter" '("multi-line-"))
 
 ;;;***
 
@@ -65,7 +65,7 @@ Single-line the statement at point." t nil)
 ;;;;;;  0 0))
 ;;; Generated autoloads from multi-line-find.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "multi-line-find" '("multi-line-")))
+(register-definition-prefixes "multi-line-find" '("multi-line-"))
 
 ;;;***
 
@@ -79,7 +79,7 @@ Remove any existing multi-line highlight overlays." t nil)
 (autoload 'multi-line-highlight-current-candidates "multi-line-highlight" "\
 Highlight the positions at which multi-line will consider adding newlines." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "multi-line-highlight" '("multi-line-")))
+(register-definition-prefixes "multi-line-highlight" '("multi-line-"))
 
 ;;;***
 
@@ -87,7 +87,7 @@ Highlight the positions at which multi-line will consider adding newlines." t ni
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from multi-line-respace.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "multi-line-respace" '("multi-line-")))
+(register-definition-prefixes "multi-line-respace" '("multi-line-"))
 
 ;;;***
 
@@ -95,7 +95,7 @@ Highlight the positions at which multi-line will consider adding newlines." t ni
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from multi-line-shared.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "multi-line-shared" '("multi-line-")))
+(register-definition-prefixes "multi-line-shared" '("multi-line-"))
 
 ;;;***
 

@@ -1,4 +1,4 @@
-;;; gnuplot-autoloads.el --- automatically extracted autoloads
+;;; gnuplot-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -77,7 +77,7 @@ following in your .emacs file:
 (autoload 'run-gnuplot "gnuplot" "\
 Run an inferior Gnuplot process." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "gnuplot" '("gnuplot-")))
+(register-definition-prefixes "gnuplot" '("gnuplot-"))
 
 ;;;***
 
@@ -85,14 +85,14 @@ Run an inferior Gnuplot process." t nil)
 ;;;;;;  0 0))
 ;;; Generated autoloads from gnuplot-context.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "gnuplot-context" '("gnuplot-")))
+(register-definition-prefixes "gnuplot-context" '("gnuplot-"))
 
 ;;;***
 
 ;;;### (autoloads nil "gnuplot-gui" "gnuplot-gui.el" (0 0 0 0))
 ;;; Generated autoloads from gnuplot-gui.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "gnuplot-gui" '("gnuplot-")))
+(register-definition-prefixes "gnuplot-gui" '("gnuplot-"))
 
 ;;;***
 

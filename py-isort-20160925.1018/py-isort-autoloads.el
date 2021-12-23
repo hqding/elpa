@@ -1,4 +1,4 @@
-;;; py-isort-autoloads.el --- automatically extracted autoloads
+;;; py-isort-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -17,7 +17,7 @@ Uses the \"isort\" tool to reformat the current buffer." t nil)
 
 (autoload 'py-isort-before-save "py-isort" nil t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "py-isort" '("py-isort-")))
+(register-definition-prefixes "py-isort" '("py-isort-"))
 
 ;;;***
 

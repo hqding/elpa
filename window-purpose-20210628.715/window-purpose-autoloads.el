@@ -1,4 +1,4 @@
-;;; window-purpose-autoloads.el --- automatically extracted autoloads
+;;; window-purpose-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -23,16 +23,25 @@ or call the function `purpose-mode'.")
 (autoload 'purpose-mode "window-purpose" "\
 Toggle Purpose mode on or off.
 
-If called interactively, enable Purpose mode if ARG is positive,
-and disable it if ARG is zero or negative.  If called from Lisp,
-also enable the mode if ARG is omitted or nil, and toggle it if
-ARG is `toggle'; disable the mode otherwise.
+This is a minor mode.  If called interactively, toggle the
+`Purpose mode' mode.  If the prefix argument is positive, enable
+the mode, and if it is zero or negative, disable the mode.
+
+If called from Lisp, toggle the mode if ARG is `toggle'.  Enable
+the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
+
+To check whether the minor mode is enabled in the current buffer,
+evaluate `(default-value \\='purpose-mode)'.
+
+The mode's hook is called both when the mode is enabled and when
+it is disabled.
 
 \\{purpose-mode-map}
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "window-purpose" '("find-file-" "purpose-" "switch-buffer-")))
+(register-definition-prefixes "window-purpose" '("find-file-" "purpose-" "switch-buffer-"))
 
 ;;;***
 
@@ -60,7 +69,7 @@ done.
 
 \(fn EXT-KEYWORD CONFIG)" nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "window-purpose-configuration" '("define-purpose-list-checker" "purpose-")))
+(register-definition-prefixes "window-purpose-configuration" '("define-purpose-list-checker" "purpose-"))
 
 ;;;***
 
@@ -74,7 +83,7 @@ WINDOW defaults to the selected window.
 
 \(fn &optional WINDOW)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "window-purpose-core" '("default-" "purpose-")))
+(register-definition-prefixes "window-purpose-core" '("default-" "purpose-"))
 
 ;;;***
 
@@ -82,7 +91,7 @@ WINDOW defaults to the selected window.
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from window-purpose-fixes.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "window-purpose-fixes" '("purpose-")))
+(register-definition-prefixes "window-purpose-fixes" '("purpose-"))
 
 ;;;***
 
@@ -169,7 +178,7 @@ the right purpose in it, or creating a dummy buffer.
 
 \(fn PURPOSE &optional DONT-DEDICATE)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "window-purpose-layout" '("purpose-")))
+(register-definition-prefixes "window-purpose-layout" '("purpose-"))
 
 ;;;***
 
@@ -177,7 +186,7 @@ the right purpose in it, or creating a dummy buffer.
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from window-purpose-prefix-overload.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "window-purpose-prefix-overload" '("define-purpose-prefix-overload" "purpose--")))
+(register-definition-prefixes "window-purpose-prefix-overload" '("define-purpose-prefix-overload" "purpose--"))
 
 ;;;***
 
@@ -246,7 +255,7 @@ current buffer's purpose.
 
 \(fn &optional PURPOSE)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "window-purpose-switch" '("purpose-" "without-purpose")))
+(register-definition-prefixes "window-purpose-switch" '("purpose-" "without-purpose"))
 
 ;;;***
 
@@ -254,7 +263,7 @@ current buffer's purpose.
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from window-purpose-utils.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "window-purpose-utils" '("purpose-")))
+(register-definition-prefixes "window-purpose-utils" '("purpose-"))
 
 ;;;***
 
@@ -342,7 +351,7 @@ This is implemented by overriding `replace-buffer-in-windows' with
 `purpose-x-replace-buffer-in-windows-1'.  See
 `purpose-x-replace-buffer-in-windows-1' for more details." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "window-purpose-x" '("purpose-x-")))
+(register-definition-prefixes "window-purpose-x" '("purpose-x-"))
 
 ;;;***
 

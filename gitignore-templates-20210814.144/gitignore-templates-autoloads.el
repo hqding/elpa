@@ -1,4 +1,4 @@
-;;; gitignore-templates-autoloads.el --- automatically extracted autoloads
+;;; gitignore-templates-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -22,7 +22,7 @@ If DIRECTORY is nil, use `default-directory'.
 
 \(fn NAME &optional DIRECTORY)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "gitignore-templates" '("gitignore-templates")))
+(register-definition-prefixes "gitignore-templates" '("gitignore-templates"))
 
 ;;;***
 

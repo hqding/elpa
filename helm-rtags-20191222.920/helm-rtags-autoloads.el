@@ -1,4 +1,4 @@
-;;; helm-rtags-autoloads.el --- automatically extracted autoloads
+;;; helm-rtags-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -9,7 +9,7 @@
 ;;;### (autoloads nil "helm-rtags" "helm-rtags.el" (0 0 0 0))
 ;;; Generated autoloads from helm-rtags.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-rtags" '("create-helm-rtags-source" "helm-rtags-")))
+(register-definition-prefixes "helm-rtags" '("create-helm-rtags-source" "helm-rtags-"))
 
 ;;;***
 

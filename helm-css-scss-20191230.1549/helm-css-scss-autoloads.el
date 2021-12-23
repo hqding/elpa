@@ -1,4 +1,4 @@
-;;; helm-css-scss-autoloads.el --- automatically extracted autoloads
+;;; helm-css-scss-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -12,7 +12,7 @@
 (autoload 'helm-css-scss-insert-close-comment "helm-css-scss" "\
 
 
-\(fn $DEPTH)" t nil)
+\(fn $DEPTH)" '((list (read-number "Nest Depth: " helm-css-scss-insert-close-comment-depth))) nil)
 
 (autoload 'helm-css-scss-move-and-echo-next-selector "helm-css-scss" "\
 Move and echo next selector." t nil)
@@ -25,7 +25,7 @@ CSS/SCSS/LESS coding faster and easier than ever.
 
 \(fn &optional $QUERY)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-css-scss" '("helm-c")))
+(register-definition-prefixes "helm-css-scss" '("helm-c"))
 
 ;;;***
 

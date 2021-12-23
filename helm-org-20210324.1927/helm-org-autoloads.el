@@ -1,4 +1,4 @@
-;;; helm-org-autoloads.el --- automatically extracted autoloads
+;;; helm-org-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -43,7 +43,7 @@ selection, see (info \"(org) setting tags\").
 
 \(fn PROMPT COLLECTION PRED REQ INITIAL HIST DEF INHERIT-INPUT-METHOD NAME BUFFER)" nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-org" '("helm-")))
+(register-definition-prefixes "helm-org" '("helm-"))
 
 ;;;***
 

@@ -1,4 +1,4 @@
-;;; helm-mode-manager-autoloads.el --- automatically extracted autoloads
+;;; helm-mode-manager-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -25,7 +25,7 @@ Return a `helm' selection of all available major modes.
 Selecting a target will activate the major mode. The persistent
 action is to show help about the selected major mode." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-mode-manager" '("helm-mode-manager-")))
+(register-definition-prefixes "helm-mode-manager" '("helm-mode-manager-"))
 
 ;;;***
 

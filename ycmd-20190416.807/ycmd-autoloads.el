@@ -1,4 +1,4 @@
-;;; ycmd-autoloads.el --- automatically extracted autoloads
+;;; ycmd-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -42,17 +42,21 @@ or call the function `global-ycmd-mode'.")
 
 (autoload 'global-ycmd-mode "ycmd" "\
 Toggle Ycmd mode in all buffers.
-With prefix ARG, enable Global Ycmd mode if ARG is positive;
-otherwise, disable it.  If called from Lisp, enable the mode if
-ARG is omitted or nil.
+With prefix ARG, enable Global Ycmd mode if ARG is positive; otherwise, disable
+it.
 
-Ycmd mode is enabled in all buffers where
-`ycmd--maybe-enable-mode' would do it.
+If called from Lisp, toggle the mode if ARG is `toggle'.
+Enable the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
+
+Ycmd mode is enabled in all buffers where `ycmd--maybe-enable-mode' would do
+it.
+
 See `ycmd-mode' for more information on Ycmd mode.
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ycmd" '("ycmd-")))
+(register-definition-prefixes "ycmd" '("ycmd-"))
 
 ;;;***
 
@@ -65,14 +69,23 @@ Setup eldoc for `ycmd-mode'." t nil)
 (autoload 'ycmd-eldoc-mode "ycmd-eldoc" "\
 Toggle ycmd eldoc mode.
 
-If called interactively, enable Ycmd-Eldoc mode if ARG is
-positive, and disable it if ARG is zero or negative.  If called
-from Lisp, also enable the mode if ARG is omitted or nil, and
-toggle it if ARG is `toggle'; disable the mode otherwise.
+This is a minor mode.  If called interactively, toggle the
+`Ycmd-Eldoc mode' mode.  If the prefix argument is positive,
+enable the mode, and if it is zero or negative, disable the mode.
+
+If called from Lisp, toggle the mode if ARG is `toggle'.  Enable
+the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
+
+To check whether the minor mode is enabled in the current buffer,
+evaluate `ycmd-eldoc-mode'.
+
+The mode's hook is called both when the mode is enabled and when
+it is disabled.
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ycmd-eldoc" '("ycmd-eldoc-")))
+(register-definition-prefixes "ycmd-eldoc" '("ycmd-eldoc-"))
 
 ;;;***
 
@@ -80,7 +93,7 @@ toggle it if ARG is `toggle'; disable the mode otherwise.
 ;;;;;;  0 0))
 ;;; Generated autoloads from ycmd-next-error.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ycmd-next-error" '("ycmd-next-error-")))
+(register-definition-prefixes "ycmd-next-error" '("ycmd-next-error-"))
 
 ;;;***
 

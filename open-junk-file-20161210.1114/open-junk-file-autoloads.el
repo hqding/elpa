@@ -1,4 +1,4 @@
-;;; open-junk-file-autoloads.el --- automatically extracted autoloads
+;;; open-junk-file-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -28,7 +28,7 @@ Default value of them are `open-junk-file-format' and
 
 \(fn &optional FORMAT FIND-FILE-FN)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "open-junk-file" '("open-junk-file-")))
+(register-definition-prefixes "open-junk-file" '("open-junk-file-"))
 
 ;;;***
 

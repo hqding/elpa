@@ -1,4 +1,4 @@
-;;; gh-md-autoloads.el --- automatically extracted autoloads
+;;; gh-md-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -29,7 +29,7 @@ Export to a file the markdown content from region BEGIN to END.
 (autoload 'gh-md-export-buffer "gh-md" "\
 Export to a file the markdown content from BUFFER." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "gh-md" '("gh-md-")))
+(register-definition-prefixes "gh-md" '("gh-md-"))
 
 ;;;***
 

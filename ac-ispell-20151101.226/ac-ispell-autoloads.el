@@ -1,4 +1,4 @@
-;;; ac-ispell-autoloads.el --- automatically extracted autoloads
+;;; ac-ispell-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -15,7 +15,7 @@ Add `ac-source-ispell' to `ac-sources' and enable `auto-complete' mode" t nil)
 (autoload 'ac-ispell-setup "ac-ispell" "\
 Declare auto-complete source based on `ac-ispell-requires'" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ac-ispell" '("ac-ispell-")))
+(register-definition-prefixes "ac-ispell" '("ac-ispell-"))
 
 ;;;***
 

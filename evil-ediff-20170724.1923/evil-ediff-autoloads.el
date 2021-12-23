@@ -1,4 +1,4 @@
-;;; evil-ediff-autoloads.el --- automatically extracted autoloads
+;;; evil-ediff-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -12,7 +12,7 @@
 (autoload 'evil-ediff-init "evil-ediff" "\
 Initialize evil-ediff." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "evil-ediff" '("evil-ediff-")))
+(register-definition-prefixes "evil-ediff" '("evil-ediff-"))
 
 ;;;***
 

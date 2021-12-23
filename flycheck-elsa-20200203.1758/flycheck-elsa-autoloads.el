@@ -1,4 +1,4 @@
-;;; flycheck-elsa-autoloads.el --- automatically extracted autoloads
+;;; flycheck-elsa-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -12,7 +12,7 @@
 (autoload 'flycheck-elsa-setup "flycheck-elsa" "\
 Setup Flycheck with Elsa." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "flycheck-elsa" '("flycheck-elsa-")))
+(register-definition-prefixes "flycheck-elsa" '("flycheck-elsa-"))
 
 ;;;***
 

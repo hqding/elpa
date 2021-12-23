@@ -1,4 +1,4 @@
-;;; company-reftex-autoloads.el --- automatically extracted autoloads
+;;; company-reftex-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -22,7 +22,7 @@ For more information on COMMAND and ARG see `company-backends'.
 
 \(fn COMMAND &optional ARG &rest _)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "company-reftex" '("company-reftex-")))
+(register-definition-prefixes "company-reftex" '("company-reftex-"))
 
 ;;;***
 

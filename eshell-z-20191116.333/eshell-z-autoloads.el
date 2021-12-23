@@ -1,4 +1,4 @@
-;;; eshell-z-autoloads.el --- automatically extracted autoloads
+;;; eshell-z-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -14,7 +14,7 @@ Switch to eshell and change directory to DIR.
 
 \(fn DIR)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "eshell-z" '("eshell" "pcomplete/z")))
+(register-definition-prefixes "eshell-z" '("eshell" "pcomplete/z"))
 
 ;;;***
 

@@ -1,4 +1,4 @@
-;;; fancy-battery-autoloads.el --- automatically extracted autoloads
+;;; fancy-battery-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -38,7 +38,7 @@ The text in the mode line is controlled by
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "fancy-battery" '("fancy-battery-")))
+(register-definition-prefixes "fancy-battery" '("fancy-battery-"))
 
 ;;;***
 

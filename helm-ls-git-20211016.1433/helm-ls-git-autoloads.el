@@ -1,4 +1,4 @@
-;;; helm-ls-git-autoloads.el --- automatically extracted autoloads
+;;; helm-ls-git-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -34,7 +34,7 @@ Commands:
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-ls-git" '("helm-")))
+(register-definition-prefixes "helm-ls-git" '("helm-"))
 
 ;;;***
 

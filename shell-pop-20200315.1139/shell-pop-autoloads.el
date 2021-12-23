@@ -1,4 +1,4 @@
-;;; shell-pop-autoloads.el --- automatically extracted autoloads
+;;; shell-pop-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -21,7 +21,7 @@ The input format is the same as that of `kbd'.")
 
 \(fn ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "shell-pop" '("shell-pop-")))
+(register-definition-prefixes "shell-pop" '("shell-pop-"))
 
 ;;;***
 

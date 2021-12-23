@@ -1,4 +1,4 @@
-;;; org-mime-autoloads.el --- automatically extracted autoloads
+;;; org-mime-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -43,7 +43,7 @@ Following headline properties can determine the mail headers.
 
 \(fn &optional HTMLIZE-FIRST-LEVEL)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-mime" '("org-mime-")))
+(register-definition-prefixes "org-mime" '("org-mime-"))
 
 ;;;***
 

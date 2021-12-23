@@ -1,4 +1,4 @@
-;;; eshell-prompt-extras-autoloads.el --- automatically extracted autoloads
+;;; eshell-prompt-extras-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -10,7 +10,7 @@
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from eshell-prompt-extras.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "eshell-prompt-extras" '("epe-")))
+(register-definition-prefixes "eshell-prompt-extras" '("epe-"))
 
 ;;;***
 

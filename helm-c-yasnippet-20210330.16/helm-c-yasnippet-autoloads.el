@@ -1,4 +1,4 @@
-;;; helm-c-yasnippet-autoloads.el --- automatically extracted autoloads
+;;; helm-c-yasnippet-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -21,7 +21,7 @@ Create a snippet from region.
 
 \(fn &optional START END FILE-NAME)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-c-yasnippet" '("helm-")))
+(register-definition-prefixes "helm-c-yasnippet" '("helm-"))
 
 ;;;***
 

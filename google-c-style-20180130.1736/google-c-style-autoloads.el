@@ -1,4 +1,4 @@
-;;; google-c-style-autoloads.el --- automatically extracted autoloads
+;;; google-c-style-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -21,7 +21,7 @@ Set the current buffer's c-style to Google C/C++ Programming
 Sets up preferred newline behavior. Not set by default. Meant
   to be added to `c-mode-common-hook'." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "google-c-style" '("google-c-lineup-expression-plus-4")))
+(register-definition-prefixes "google-c-style" '("google-c-lineup-expression-plus-4"))
 
 ;;;***
 

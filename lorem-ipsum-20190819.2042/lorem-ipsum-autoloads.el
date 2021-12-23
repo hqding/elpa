@@ -1,4 +1,4 @@
-;;; lorem-ipsum-autoloads.el --- automatically extracted autoloads
+;;; lorem-ipsum-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -36,7 +36,7 @@ If NUM is non-nil, insert NUM list items.
 
 (defalias 'Lorem-ipsum-insert-list 'lorem-ipsum-insert-list)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "lorem-ipsum" '("lorem-ipsum-")))
+(register-definition-prefixes "lorem-ipsum" '("lorem-ipsum-"))
 
 ;;;***
 

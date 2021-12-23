@@ -1,4 +1,4 @@
-;;; company-math-autoloads.el --- automatically extracted autoloads
+;;; company-math-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -34,7 +34,7 @@ for details.
 
 \(fn COMMAND &optional ARG &rest IGNORED)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "company-math" '("company-math-")))
+(register-definition-prefixes "company-math" '("company-math-"))
 
 ;;;***
 

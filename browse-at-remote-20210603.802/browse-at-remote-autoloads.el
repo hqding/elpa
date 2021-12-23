@@ -1,4 +1,4 @@
-;;; browse-at-remote-autoloads.el --- automatically extracted autoloads
+;;; browse-at-remote-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -28,7 +28,7 @@ Add the URL of the current file to the kill ring.
 Works like `browse-at-remote', but puts the address in the
 kill ring instead of opening it with `browse-url'.")
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "browse-at-remote" '("browse-at-remote-")))
+(register-definition-prefixes "browse-at-remote" '("browse-at-remote-"))
 
 ;;;***
 

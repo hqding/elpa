@@ -1,4 +1,4 @@
-;;; link-hint-autoloads.el --- automatically extracted autoloads
+;;; link-hint-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -44,7 +44,7 @@ Open the link with the highest priority at the point." t nil)
 (autoload 'link-hint-copy-link-at-point "link-hint" "\
 Copy the link with the highest priority at the point." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "link-hint" '("link-hint-")))
+(register-definition-prefixes "link-hint" '("link-hint-"))
 
 ;;;***
 

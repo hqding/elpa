@@ -1,4 +1,4 @@
-;;; evil-tutor-autoloads.el --- automatically extracted autoloads
+;;; evil-tutor-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -14,7 +14,7 @@ Start a evil-tutor session." t nil)
 
 (defalias 'evil-tutor-resume 'evil-tutor-start)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "evil-tutor" '("evil-tutor-")))
+(register-definition-prefixes "evil-tutor" '("evil-tutor-"))
 
 ;;;***
 

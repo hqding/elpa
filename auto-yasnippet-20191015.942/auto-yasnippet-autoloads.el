@@ -1,4 +1,4 @@
-;;; auto-yasnippet-autoloads.el --- automatically extracted autoloads
+;;; auto-yasnippet-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -40,7 +40,7 @@ move to the next field.  Call `open-line' if nothing else applies." t nil)
 Insert current snippet at point.
 To save a snippet permanently, create an empty file and call this." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "auto-yasnippet" '("aya-")))
+(register-definition-prefixes "auto-yasnippet" '("aya-"))
 
 ;;;***
 

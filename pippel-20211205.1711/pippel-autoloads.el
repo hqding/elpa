@@ -1,4 +1,4 @@
-;;; pippel-autoloads.el --- automatically extracted autoloads
+;;; pippel-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -17,7 +17,7 @@ Prompt user for a string containing packages to be installed.
 (autoload 'pippel-list-packages "pippel" "\
 Display a list of installed packages." t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "pippel" '("pippel-")))
+(register-definition-prefixes "pippel" '("pippel-"))
 
 ;;;***
 

@@ -1,4 +1,4 @@
-;;; password-generator-autoloads.el --- automatically extracted autoloads
+;;; password-generator-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -60,7 +60,7 @@ Password generated with your own alphabet.  PRE-LEN is prefix arg that defines p
 
 \(fn &optional PRE-LEN RETURN)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "password-generator" '("password-generator-")))
+(register-definition-prefixes "password-generator" '("password-generator-"))
 
 ;;;***
 

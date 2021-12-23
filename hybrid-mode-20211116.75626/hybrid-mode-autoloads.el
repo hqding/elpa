@@ -1,4 +1,4 @@
-;;; hybrid-mode-autoloads.el --- automatically extracted autoloads
+;;; hybrid-mode-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -31,7 +31,7 @@ behavior (for instance it support C-r pasting).")
 (custom-autoload 'hybrid-style-use-evil-search-module "hybrid-mode" t)
 
 (defvar hybrid-mode nil "\
-Non-nil if Hybrid mode is enabled.
+Non-nil if hybrid mode is enabled.
 See the `hybrid-mode' command
 for a description of this minor mode.
 Setting this variable directly does not take effect;
@@ -43,14 +43,23 @@ or call the function `hybrid-mode'.")
 (autoload 'hybrid-mode "hybrid-mode" "\
 Global minor mode to replace insert state by hybrid state.
 
-If called interactively, enable Hybrid mode if ARG is positive,
-and disable it if ARG is zero or negative.  If called from Lisp,
-also enable the mode if ARG is omitted or nil, and toggle it if
-ARG is `toggle'; disable the mode otherwise.
+This is a minor mode.  If called interactively, toggle the
+`hybrid mode' mode.  If the prefix argument is positive, enable
+the mode, and if it is zero or negative, disable the mode.
+
+If called from Lisp, toggle the mode if ARG is `toggle'.  Enable
+the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
+
+To check whether the minor mode is enabled in the current buffer,
+evaluate `(default-value \\='hybrid-mode)'.
+
+The mode's hook is called both when the mode is enabled and when
+it is disabled.
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "hybrid-mode" '("disable-hybrid-editing-style" "enable-hybrid-editing-style" "evil-insert-state-p" "hybrid-mode")))
+(register-definition-prefixes "hybrid-mode" '("disable-hybrid-editing-style" "enable-hybrid-editing-style" "evil-insert-state-p" "hybrid-mode"))
 
 ;;;***
 

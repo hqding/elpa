@@ -1,4 +1,4 @@
-;;; column-enforce-mode-autoloads.el --- automatically extracted autoloads
+;;; column-enforce-mode-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -28,10 +28,19 @@ Create an interactive function to enforce an N-column-rule.
 (autoload 'column-enforce-mode "column-enforce-mode" "\
 Minor mode for highlighting text that extends beyond a certain column.
 
-If called interactively, enable Column-Enforce mode if ARG is
-positive, and disable it if ARG is zero or negative.  If called
-from Lisp, also enable the mode if ARG is omitted or nil, and
-toggle it if ARG is `toggle'; disable the mode otherwise.
+This is a minor mode.  If called interactively, toggle the
+`Column-Enforce mode' mode.  If the prefix argument is positive,
+enable the mode, and if it is zero or negative, disable the mode.
+
+If called from Lisp, toggle the mode if ARG is `toggle'.  Enable
+the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
+
+To check whether the minor mode is enabled in the current buffer,
+evaluate `column-enforce-mode'.
+
+The mode's hook is called both when the mode is enabled and when
+it is disabled.
 
 Variable `column-enforce-column' decides which column to start warning at.
  Default is 80
@@ -54,16 +63,20 @@ or call the function `global-column-enforce-mode'.")
 (autoload 'global-column-enforce-mode "column-enforce-mode" "\
 Toggle Column-Enforce mode in all buffers.
 With prefix ARG, enable Global Column-Enforce mode if ARG is positive;
-otherwise, disable it.  If called from Lisp, enable the mode if
-ARG is omitted or nil.
+otherwise, disable it.
+
+If called from Lisp, toggle the mode if ARG is `toggle'.
+Enable the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
 
 Column-Enforce mode is enabled in all buffers where
 `column-enforce-mode-toggle-if-applicable' would do it.
+
 See `column-enforce-mode' for more information on Column-Enforce mode.
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "column-enforce-mode" '("column-enforce-")))
+(register-definition-prefixes "column-enforce-mode" '("column-enforce-"))
 
 ;;;***
 

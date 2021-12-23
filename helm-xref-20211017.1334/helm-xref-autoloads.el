@@ -1,4 +1,4 @@
-;;; helm-xref-autoloads.el --- automatically extracted autoloads
+;;; helm-xref-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -30,7 +30,7 @@ Function to display list of definitions.
 
 (if (< emacs-major-version 27) (setq xref-show-xrefs-function 'helm-xref-show-xrefs) (progn (setq xref-show-xrefs-function 'helm-xref-show-xrefs-27) (setq xref-show-definitions-function 'helm-xref-show-defs-27)))
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-xref" '("helm-xref-")))
+(register-definition-prefixes "helm-xref" '("helm-xref-"))
 
 ;;;***
 
