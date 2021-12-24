@@ -5256,23 +5256,26 @@ source is `helm-source-find-files'."
   "Try to find library path at point.
 Find inside `require' and `declare-function' sexp."
   (require 'find-func)
-  (let* ((beg-sexp (save-excursion (or (search-backward "(" (point-at-bol) t)
-                                       (and (beginning-of-defun) (point)))))
+  (let* ((beg-sexp (save-excursion (search-backward "(" (point-at-bol) t)))
          (end-sexp (save-excursion (end-of-defun) (point)))
          (sexp     (and beg-sexp end-sexp
                         (buffer-substring-no-properties
                          (1+ beg-sexp) (1- end-sexp)))))
     (ignore-errors
-      (cond ((and sexp (string-match "use-package +\\([^) \n]*\\)" sexp))
+      (cond (;; Should work only when point is on the use-package line
+             ;; i.e. first line of sexp otherwise it prevents matching
+             ;; urls with helm-find-files (bug #2469).
+             (and sexp (string-match "use-package +\\([^ )\n]+\\)" sexp))
              (find-library-name (match-string 1 sexp)))
-            ((and sexp (string-match "require +'\\([^) ]*\\)" sexp))
+            ((and sexp (string-match "require +[']\\([^ )]+\\)" sexp))
+              ;; If require use third arg, ignore it,
+              ;; always use library path found in `load-path'.
              (find-library-name (match-string 1 sexp)))
-            ((and sexp
-                  (string-match
-                   "declare-function +\\([^) ]*\\) \"\\(ext:\\)*\\([^\"]*\\)"
-                   sexp))
-             (find-library-name (match-string 3 sexp)))
+            ;; Assume declare-function sexps are on one line.
+            ((and sexp (string-match "declare-function .+? \"\\(?:ext:\\)?\\([^ )]+\\)\"" sexp))
+             (find-library-name (match-string 1 sexp)))
             (t nil)))))
+
 
 ;;; Handle copy, rename, symlink, relsymlink and hardlink from helm.
 ;;
